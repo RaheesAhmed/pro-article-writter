@@ -1,0 +1,87 @@
+/* custom_styles.css */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f6;
+  color: #1e1e1e;
+}
+
+.stApp {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2.5em;
+}
+
+.stTextInput,
+.stNumberInput,
+.stSelectbox,
+.stTextArea {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.stButton > button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+  background-color: #2980b9;
+}
+
+.stProgress > div > div > div {
+  background-color: #2ecc71;
+}
+
+.stExpander {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 15px;
+}
+
+.stPlotlyChart {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.article-content {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.section-header {
+  color: #34495e;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.chart-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
